@@ -1,10 +1,4 @@
-function getRandomInt(s,e)
-	return math.random(s,e)
-end
 
-function getRandomFloat(s,e)
-	return math.random()*(e-s)+s
-end
 
 function arcSin(sinValue,x)
 	if x and x >= 0 then
